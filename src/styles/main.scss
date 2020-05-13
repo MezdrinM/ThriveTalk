@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+@import "./variables.scss";
+@import "./header.scss";
+
+.container {
+  width: $width;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+html,
+body {
+  font-size: 10px;
+  font-family: $font;
+}
+
+button {
+  font-family: $font;
+}
+
+a {
+  font-family: $font;
+}
