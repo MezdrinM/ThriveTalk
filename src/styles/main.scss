@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
 @import "./variables.scss";
 @import "./header.scss";
+@import "./section-main.scss";
 
 .section-outer {
   width: $width;
   margin: 0 auto;
   max-width: 90%;
 }
+
 
 html,
 body {
