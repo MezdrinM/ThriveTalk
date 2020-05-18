@@ -1,0 +1,38 @@
+.section-about {
+    background: #62D0DF;
+    display: flex;
+    flex-wrap: wrap;
+
+    &-description{
+        display: flex;
+        flex-direction: column;
+        padding-left: 179px;     
+        width: 555px;
+        color: #FFFFFF;   
+    
+        &__title{
+            font-size: 36px;
+            line-height: 27px;
+            letter-spacing: -0.006em;
+            padding:151px 0 75px 0;
+
+        }
+
+        &__subtitle{
+            font-size: 14px;
+            line-height: 35px;
+            letter-spacing: .2;
+            padding-bottom: 75px;
+
+            .subtitle-big{
+                font-size: 22px;
+                line-height: 35px;
+            }
+        }
+    }
+
+    &-image{
+        background: url(/public/static/christopher-campbell-40367.png) no-repeat right;
+    }
+}
+
