@@ -1,34 +1,104 @@
 .section-main{
-    background: #ffffff url(/public/static/talk.png) no-repeat;
+    background: #ffffff url(/public/static/talk.png) no-repeat right;
 
-    &-menu{
-        display: flex;
-        padding-top: 27px;
-        justify-content: space-between;
-        
-        &-title{
-            font-size: 24px;
-            line-height: 27px;
-            letter-spacing: -0.035em;
-            color: #62D0DF;
-        }
-        
-        &-list{
+
+    &-logo{
+        font-size: 24px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+        color: #62D0DF;
+    }
+
+     
+    &-list{
+    
+        width: 233px;    
+        padding-left: 319px;
+
+        &__link{
             font-size: 14px;
             line-height: 16px;
             color: #22356F;
-            width: 233px;
-
-           .menu-list{
-               justify-content: space-between;
-               display: flex;
-               align-items: center;
-               padding: 0;
-               margin: 11px 0 0 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+       
+           a.border{
+            padding-bottom: 15px;
+            width: 50px; 
+            box-shadow: inset 0px -1px 0px #22356F;
             }
         }
-        &-button{
-            display: inline-block;
+    }
+
+    &-button{
+        padding-left: 319px;
+       
+        
+        button{
+            font-size: 14px;
+            line-height: 16px;
+            background: #62D0DF;
+            border-radius: 50px;
+            border: none;
+            width: 150px;
+            height: 50px;
+            color: #ffffff;
         }
     }
+
+    &-description{
+        display: flex;
+        flex-direction: column;
+        padding-left: 179px;
+        width: 484px;
+
+        &-title{
+            font-size: 48px;
+            line-height: 53px;
+            font-weight: bold;
+            letter-spacing: -0.035em;
+            color: #22356F;
+            width: 484px;
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+        &-subtitle{
+            font-size: 22px;
+            line-height: 42px;
+            color: #22356F;
+            margin-bottom: 66px;
+        }
+        &-form{
+            display: flex;
+            margin-bottom: 75px;
+            &__button{
+             button{
+                font-size: 16px;
+                line-height: 23px;
+                border: none;
+                width: 150px;
+                height: 50px;
+                background: #F9B640;
+                color: #ffffff;
+             }
+             button:last-child{
+                 background: none;
+                 color: #F9B640;
+                 margin-left: 38px;
+             }
+            }
+        }
+    }
+}
+
+.section-wrapper{
+    display: flex;
+    padding-left: 179px;
+    padding-top: 27px;
+    margin-bottom: 187px;
+
+    
 }
