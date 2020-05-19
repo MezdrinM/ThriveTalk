@@ -1,0 +1,47 @@
+.section-contact{
+background: #22356F;
+display: flex;
+flex-direction: row;
+justify-items: right;
+
+    &-box{
+
+        &__text{
+            display: flex;
+            flex-direction: column;
+            color: #FFFFFF;
+            padding-left: 180px;
+
+            .text-sudtitle__top{
+                font-size: 16px;
+                line-height: 12px;
+                letter-spacing: 0.06em;
+                margin: 103px 0 230px;
+            }
+            .text-title{
+                font-size: 64px;
+                line-height: 94px;
+                letter-spacing: -0.01em;
+                margin-bottom: 75px;
+               
+            }
+            .text-title__description{
+                font-size: 36px;
+                line-height: 53px;
+                letter-spacing: -0.005em;
+                margin-bottom: 42px;
+                max-width: 75%;
+            }
+            .text-sudtitle__bottom{
+                font-size: 16px;
+                line-height: 23px;
+                letter-spacing: 0.1em;
+                color: #62D0DF;
+            }
+        }
+    }
+    &-image{
+        display: inline-block;
+        right: 0;
+    }
+}
