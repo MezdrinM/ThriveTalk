@@ -1,0 +1,65 @@
+.section-promo{
+
+            &-list{
+                display: flex;
+                flex-flow: row wrap;
+                padding: 0;
+                margin: 0;
+                
+                .items-list{
+                    list-style-type: none;
+                    width: 480px;
+                    height: 480px;
+                    font-size: 32px;
+                    line-height: 34px;
+                    letter-spacing: -0.006em;
+                    color: #FFFFFF;
+                    padding-top: 95px;
+                    text-align: center;
+                }
+
+                .items-list a{
+                    display: inline-block;
+                    color: #ffffff;
+                    border-top: 1px solid #fff;
+                    padding-top: 30px;
+                    width: 340px;
+                    text-align: start;
+                }
+
+                .items-list a::before{
+                    content: '';
+                    background-color: #E9B730;
+                    width: 9px;
+                    height: 9px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: 15px;
+                }
+            }
+
+            .indigo{
+                background: #22356F;
+            }
+
+            .blue{
+                background: $blue;
+            }
+
+            .images{
+                background: url(/public/static/joanna-kosinska-340748.png);
+            }
+
+            .aqua{
+                background: $aqua;
+                    }
+
+            .peach{
+                background: $peach;
+                }
+
+            .violet{
+                background: $violet;
+            }
+}
