@@ -6,6 +6,7 @@
 @import "./section-text.scss";
 @import "./section-box.scss";
 @import "./section-promo.scss";
+@import "./section-foulder.scss";
 
 .section-outer {
   width: $width;
@@ -33,6 +34,13 @@ a {
 a:hover{
   color: #1b1052;
   transition: .2s;
+}
+
+.logo{
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+  color: #62D0DF;
 }
 
 
