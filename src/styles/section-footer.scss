@@ -1,0 +1,16 @@
+.section-footer{
+    background: #62D0DF;
+    height: 80px;
+
+    &-text{
+        font-size: 14px;
+        line-height: 11px;
+        letter-spacing: .1em;
+        color: #FFFFFF;
+        padding: 32px 0 0 194px;
+        
+    }
+    &-text::before{
+        content: '\00A9';
+    }
+}
