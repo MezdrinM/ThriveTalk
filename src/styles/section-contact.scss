@@ -1,8 +1,7 @@
 .section-contact{
-background: #22356F;
+background: #22356F url(/static/charles-etoroma-390119.png) no-repeat right;
 display: flex;
-flex-direction: row;
-justify-items: right;
+
 
     &-box{
 
@@ -30,13 +29,14 @@ justify-items: right;
                 line-height: 53px;
                 letter-spacing: -0.005em;
                 margin-bottom: 42px;
-                max-width: 75%;
+                max-width: 50%;
             }
             .text-sudtitle__bottom{
                 font-size: 16px;
                 line-height: 23px;
                 letter-spacing: 0.1em;
                 color: #62D0DF;
+                margin-bottom: 42px;
             }
         }
     }

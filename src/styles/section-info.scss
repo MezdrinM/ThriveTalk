@@ -1,16 +1,18 @@
 .section-info{
     display: flex;
-    flex-direction: row;
-    background: #FFFFFF;
+    background: #FFFFFF url(/static/autumn-goodman-242825.png) no-repeat left;
 
     &-box{
-        width: 100%;
-        
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 92%;
+        justify-content: flex-end;
 
         &__text{
             display: flex;
             flex-direction: column;
-            
+            max-width: 240px;
+            padding: 98px 56px 99px 0;
            
            
             &-title{
@@ -26,7 +28,6 @@
                 line-height: 23px;
                 letter-spacing: -0.006em;
                 color: rgba(34, 53, 111, 0.5);
-                width: 80%;
                 
             }
             .link{
@@ -48,9 +49,6 @@
 }
 
 .section-info-wrapper{
-    position: relative;
-    top: 98px;
-    left: 68px;
     display: flex;
-    flex-flow: row nowrap;
+    margin: 0 auto;
 }

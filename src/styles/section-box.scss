@@ -1,16 +1,16 @@
 .section-box{
     background: #ffffff;
 
-    &-list{
-        display: flex;
-        flex-flow: row wrap;
 
 
-        &__iron{
+
+        &-list{
             display: flex;
             padding: 0;
             margin: 0 0 120px;
             text-align: center;
+            flex-wrap: wrap;
+            
             .box-list{
                 list-style-type: none;
                 width: 360px;
@@ -54,5 +54,4 @@
             background: $blue;
         }
         }
-    }
 }

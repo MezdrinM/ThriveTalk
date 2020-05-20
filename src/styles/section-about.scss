@@ -1,5 +1,5 @@
 .section-about {
-    background: #62D0DF;
+    background: #62D0DF url(/static/christopher-campbell-40367.png) no-repeat right;
     display: flex;
 
 
@@ -7,8 +7,8 @@
         display: flex;
         flex-direction: column;
         color: #FFFFFF;
-        margin: 0 auto;
-        width: 36%;
+        padding-left: 179px;
+        max-width: 36%;
     
         &__title{
             font-size: 36px;

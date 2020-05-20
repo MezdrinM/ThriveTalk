@@ -1,5 +1,5 @@
 .section-main{
-    background: #ffffff url(/public/static/talk.png) no-repeat right;
+    background: #ffffff url(/static/talk.png) no-repeat right;
 
 
     &-logo{
@@ -56,9 +56,7 @@
     &-description{
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
-        width: 23%;
-        padding-top: 187px;
+        padding: 187px 0 0 179px;
 
         &-title{
             font-size: 48px;

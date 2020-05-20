@@ -5,6 +5,7 @@
                 flex-flow: row wrap;
                 padding: 0;
                 margin: 0;
+                z-index: 2;
                 
                 .items-list{
                     list-style-type: none;
@@ -48,7 +49,8 @@
             }
 
             .images{
-                background: url(/public/static/joanna-kosinska-340748.png);
+                background: url(/static/joanna-kosinska-340748.png) no-repeat;
+                z-index: 2;
             }
 
             .aqua{
