@@ -1,14 +1,14 @@
 .section-about {
     background: #62D0DF;
     display: flex;
-    flex-wrap: wrap;
+
 
     &-description{
         display: flex;
         flex-direction: column;
-        padding-left: 179px;     
-        width: 555px;
-        color: #FFFFFF;   
+        color: #FFFFFF;
+        margin: 0 auto;
+        width: 36%;
     
         &__title{
             font-size: 36px;
@@ -32,7 +32,7 @@
     }
 
     &-image{
-        background: url(/public/static/christopher-campbell-40367.png) no-repeat right;
+        height: 100%;
     }
 }
 

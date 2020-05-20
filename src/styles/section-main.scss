@@ -13,7 +13,6 @@
     &-list{
     
         width: 233px;    
-        padding-left: 319px;
 
         &__link{
             font-size: 14px;
@@ -33,10 +32,8 @@
         }
     }
 
-    &-button{
-        padding-left: 319px;
-       
-        
+    &-button{     
+        z-index: 2;
         button{
             font-size: 14px;
             line-height: 16px;
@@ -46,14 +43,22 @@
             width: 150px;
             height: 50px;
             color: #ffffff;
+
         }
+    }
+
+    &-box{
+        display: flex;
+        flex-direction: row;
+
     }
 
     &-description{
         display: flex;
         flex-direction: column;
-        padding-left: 179px;
-        width: 484px;
+        margin: 0 auto;
+        width: 23%;
+        padding-top: 187px;
 
         &-title{
             font-size: 48px;
@@ -62,19 +67,22 @@
             letter-spacing: -0.035em;
             color: #22356F;
             width: 484px;
-            margin-top: 40px;
-            margin-bottom: 60px;
+            margin: 40px auto 60px;
         }
+
         &-subtitle{
             font-size: 22px;
             line-height: 42px;
             color: #22356F;
             margin-bottom: 66px;
+            width: 484px;
         }
         &-form{
             display: flex;
             margin-bottom: 75px;
+           
             &__button{
+
              button{
                 font-size: 16px;
                 line-height: 23px;
@@ -87,18 +95,27 @@
              button:last-child{
                  background: none;
                  color: #F9B640;
-                 margin-left: 38px;
+                 padding-left: 38px;
              }
             }
         }
+
     }
+
+    &-image{
+        position: relative;
+        bottom: 82px;
+        z-index: 1;
+    }
+    
 }
 
 .section-wrapper{
     display: flex;
-    padding-left: 179px;
+    width: 75%;
     padding-top: 27px;
-    margin-bottom: 187px;
+    margin: 0 auto;
+    justify-content: space-between;
 
     
 }
