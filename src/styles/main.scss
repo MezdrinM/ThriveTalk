@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
 @import "./variables.scss";
-@import "./header.scss";
 @import "./section-main.scss";
 @import "./section-about.scss";
 @import "./section-text.scss";
@@ -11,8 +10,7 @@
 @import "./section-info.scss";
 @import "./section-footer.scss";
 
-.section-outer {
-  width: $width;
+.outer {
   margin: 0 auto;
   max-width: 90%;
 }
@@ -22,11 +20,11 @@ html,
 body {
   font-size: 10px;
   font-family: $font;
-  background-color: #e5e5e5;
 }
 
 button {
   font-family: $font;
+  cursor: pointer;
 }
 
 a {
