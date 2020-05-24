@@ -1,31 +1,85 @@
 .section-text{
     background: #ffffff;
-    display: flex;
-    &-title{
+ 
+
+    &-sabtitle{
+        position: absolute;
         width: 200px;
-        margin-top: 156px;
-        text-align: right;
+        left: 106px;
         font-size: 16px;
         line-height: 23px;
         letter-spacing: 0.06em;
         color: #22356F;
     }
-    &-subtitle{
+
+    &-title{
         font-size: 22px;
         line-height: 34px;
         letter-spacing: 0.005em;
         color: #22356F;
-        width: 592px;
-        margin: 150px 0 0 225px;
-        &__footer{
-            font-size: 16px;
-            line-height: 19px;
-            text-align: center;
-            letter-spacing: 0.06em;
-            color: rgba(34, 53, 111, 0.5);
-            margin: 76px 0 24px 0;
+        font-weight: bold;
+        max-width: 592px;
+        margin: 150px auto 76px;
+    }
 
-        }
+    &-subtitle{
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: rgba(34, 53, 111, 0.5);
+        margin: 0 auto 24px;
+    }
+    
+    
+    &-list{
+        display: flex;
+        text-align: center;
+        flex: 1;
+            
+            .box{
+                list-style-type: none;
+                width: 360px;
+                height: 265px;
+                font-size: 32px;
+                line-height: 34px;
+                letter-spacing: -0.006em;
+                color: #FFFFFF;
+                padding-top: 95px;
+
+                .box a{
+                    display: inline-block;
+                    color: #ffffff;
+                    border-top: 1px solid #fff;
+                    padding-top: 23px;
+                    max-width: 255px;
+                    text-align: start;
+                }
+
+                .box a::before{
+                    content: '';
+                    background-color: #E9B730;
+                    width: 9px;
+                    height: 9px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: 15px;
+                }
+            }
+
+            .pink{
+                background: $pink;
+                }
+            .mustard{
+                background: $mustard;
+            }
+            .aqua{
+                background: $aqua;
+            }
+            .blue{
+            background: $blue;
+            }
     }
     
 }
