@@ -1,18 +1,17 @@
 .section-info{
     display: flex;
-    background: #FFFFFF url(/static/autumn-goodman-242825.png) no-repeat left;
 
     &-box{
         display: flex;
         flex-wrap: wrap;
-        flex-basis: 92%;
-        justify-content: flex-end;
+        margin: 98px 68px;
+        justify-content: space-between;
+        flex-basis: 100%;
 
         &__text{
             display: flex;
             flex-direction: column;
-            max-width: 240px;
-            padding: 98px 56px 99px 0;
+            max-width: 230px;
            
            
             &-title{
