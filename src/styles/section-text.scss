@@ -34,6 +34,7 @@
     
     &-list{
         text-align: center;
+        margin-bottom: 120px;
 
         ul{
             display: flex;
@@ -54,7 +55,7 @@
                 & span{
                     display: flex;
                     color: #ffffff;
-                    justify-content: start;
+                    text-align: start;
                     padding-top: 23px;
                     max-width: 255px;
 
