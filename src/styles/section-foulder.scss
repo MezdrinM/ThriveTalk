@@ -7,29 +7,29 @@
         display: flex;
         flex-flow: row wrap;
         align-items: center;
-        margin-bottom: 40px;
+        justify-content: space-between;
+        margin: 77px 105px 0px;
 
         &-text{
-            width: 480px;
-            height: 240px;
+            flex-basis: calc(100%/3);
+            max-width: 298px;
+            margin-bottom: 77px;;
 
            &__title{
             font-size: 28px;
             line-height: 33px;
             letter-spacing: -0.03em;
             color: #22356F;
-            max-width: 60%;
-            margin: 77px auto 28px;
-         }
+            margin-bottom: 28px;
+
+            }
 
           &__subtitle{
             font-size: 16px;
             line-height: 25px;
             letter-spacing: -0.03em;
             color: rgba(34, 53, 111, 0.5);
-            max-width: 60%;
-            margin: 0 auto;
-          }
+            }
         }
     }
 
@@ -40,7 +40,7 @@
         &__text{
             display: flex;
             flex-direction: column;
-            padding-left: 106px;
+            margin: 0 auto;
 
             .text-sudtitle__top{
                 font-size: 16px;
