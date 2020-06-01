@@ -1,5 +1,8 @@
 .section-info{
     display: flex;
+    & .portrait{
+        display: flex;
+    }
 
     &-box{
         display: flex;

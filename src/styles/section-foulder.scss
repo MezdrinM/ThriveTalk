@@ -35,7 +35,11 @@
 
     &-description{
         display: flex;
-        flex-direction: row;;
+        flex-direction: row;
+
+        &__image{
+            display: flex;
+        }
         
         &__text{
             display: flex;
