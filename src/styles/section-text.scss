@@ -117,3 +117,14 @@
         margin: 150px 40px 76px;
     }
 }
+
+@media (max-width: 530px){
+    .section-text-title{
+        max-width: 90%;
+        margin: 76px auto;
+    }
+    .section-text-sabtitle{
+        top: 60px;
+        left: 20px;
+    }
+}

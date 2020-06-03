@@ -106,4 +106,13 @@
     }
     
 }
-    
+
+
+@media (max-width: 535px){
+    .section-foulder-box-text{
+        flex-basis: 100%;
+    }
+    .section-foulder-description__text .text-title{
+        font-size: 24px;
+    }
+}

@@ -56,10 +56,20 @@
     .about-image{
         display: none;
     }
+    .section-about-description{
+        max-width: 65%;
+    }
 }
 
 @media (max-width: 1180px){
     .section-about-description__title{
         margin: 75px 0px;
     }
+}
+
+@media (max-width: 530px){
+    .section-about-description{
+        max-width: 90%;
+        margin: 0 auto;
+}
 }

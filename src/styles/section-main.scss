@@ -135,7 +135,33 @@
         background: #ffffff;
       }
   }
+
+  @media (max-width: 720px){
+    .section-main-list{
+        display: none;
+    }
+    .section-main-box-description{
+        margin-top: 80px;
+    }
+  }
   
+  @media (max-width: 530px){
+      .section-main-box-description-title{
+          font-size: 36px;
+          width: 100%;
+      }
+      .section-main-box-description-subtitle{
+          width: 100%;
+      }
+  }
+
+  @media (max-width: 530px){
+    .section-main-box-description-form{
+        flex-direction: column;
+        margin: 0 auto 66px;
+    }
+  }
+
 
 
 
