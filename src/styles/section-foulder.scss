@@ -88,4 +88,22 @@
 .section-foulder-description__text{
     max-width: 90%;
 }
+.section-foulder-description__text .text-title{
+    margin-bottom: 100px;
 }
+.section-foulder-description__text .text-sudtitle__bottom{
+    margin-bottom: 42px;
+}
+}
+
+@media (max-width: 768px){
+    .section-foulder-box{
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+    .section-foulder-box-text {
+            flex-basis: calc(100%/2);
+    }
+    
+}
+    
