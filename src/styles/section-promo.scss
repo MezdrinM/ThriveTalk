@@ -75,3 +75,9 @@
         flex-basis: calc(100%/2);
     }
 }
+
+@media (max-width: 720px){
+    .section-promo-list .items-list{
+        flex-basis: 100%;
+    }
+}
