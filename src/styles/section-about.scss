@@ -1,5 +1,7 @@
 .section-about {
-    background: #62D0DF url(/static/christopher-campbell-40367.png) no-repeat right;
+    background: #62D0DF;
+    display: flex;
+    justify-content: space-between;
 
 
     &-description{
@@ -32,4 +34,32 @@
 
 }
 
+@media (max-width: 1024px){
+    .section-about{
+        max-width: 90%;
+    
+        &-description{
+         margin-left: 40px;
 
+            &__title{
+                margin: 50px 0;
+            }
+
+            &__subtitle{
+                margin-bottom: 25px
+            }
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .about-image{
+        display: none;
+    }
+}
+
+@media (max-width: 1180px){
+    .section-about-description__title{
+        margin: 75px 0px;
+    }
+}

@@ -14,3 +14,9 @@
         content: '\00A9';
     }
 }
+
+@media (max-width: 900px){
+    .section-footer-text{
+        padding: 32px 0 0 40px;
+    }
+}

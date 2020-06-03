@@ -69,3 +69,9 @@
                 background: $violet;
             }
 }
+
+@media (max-width: 1024px){
+    .section-promo-list .items-list{
+        flex-basis: calc(100%/2);
+    }
+}

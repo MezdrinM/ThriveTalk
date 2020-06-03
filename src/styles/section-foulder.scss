@@ -71,3 +71,21 @@
         }
     }
 }
+
+@media (max-width: 1024px){
+    .section-foulder-box{
+        margin: 105px 0;
+    }
+    .section-foulder-description__text .text-sudtitle__top{
+        margin: 80px 0px 150px;
+    }
+}
+
+@media (max-width: 900px){
+.section-foulder-description__image img{
+    display: none;
+}
+.section-foulder-description__text{
+    max-width: 90%;
+}
+}

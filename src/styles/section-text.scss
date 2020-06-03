@@ -99,3 +99,21 @@
     }
     
 }
+
+@media (max-width: 1180px){
+    .section-text-list ul .box{
+    flex: none;
+    width: 360px;
+    }
+}
+
+@media (max-width: 1024px){
+    .section-text-sabtitle{
+        position: relative;
+        top: 110px;
+        left: 40px;
+    }
+    .section-text-title{
+        margin: 150px 40px 76px;
+    }
+}

@@ -117,5 +117,26 @@
 }
 
 
+@media (max-width: 1024px){
+    .section-main-wrapper{
+        margin: 27px auto;
+        max-width: 90%;
+    }
+
+    .section-main-box{
+        margin-left: 0;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 900px){
+      .section-main{
+        background: #ffffff;
+      }
+  }
+  
+
+
 
     
