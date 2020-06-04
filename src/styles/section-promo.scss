@@ -11,7 +11,7 @@
                 .items-list{
                     list-style-type: none;
                     flex-basis: calc(100%/3);
-                    height: 480px;
+                    height: 50vw;
                     font-size: 32px;
                     line-height: 34px;
                     letter-spacing: -0.006em;
@@ -78,15 +78,14 @@
 
 }
 
-@media (max-width: 720px){
-    .section-promo-list .items-list{
-        height: 360px;
-    }
-}
 
 @media (max-width: 530px){
     .section-promo-list .items-list{
-        font-size: 24px;
+        font-size: 22px; 
+    }
+
+    .section-promo-list span.promo{
+        margin: 55px auto 0;;
     }
 
     .section-promo-list span::before{

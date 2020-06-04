@@ -124,18 +124,23 @@
         max-width: 90%;
         margin: 76px 20px;
         font-weight: normal;
+        
     }
     .section-text-sabtitle{
         top: 60px;
         left: 20px;
     }
     .section-text-list ul .box{
-        font-size: 24px;
+        font-size: 22px;
+        height: 50vw;
     }
     .section-text-list ul .box span::before{
         left: 5px;
     }
     .section-text-list{
         margin-bottom: 60px;
+    }
+    .section-text-list ul .box span.list{
+        margin: 55px auto 0;
     }
 }
