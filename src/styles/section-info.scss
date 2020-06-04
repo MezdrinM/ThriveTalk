@@ -59,4 +59,10 @@
     .section-info .portrait img{
         display: none;
     }
+}
+
+@media (max-width: 900px){
+    .section-info-box{
+        margin: 55px 20px;
     }
+}
