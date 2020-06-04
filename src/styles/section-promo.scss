@@ -22,7 +22,7 @@
                 & span{
                     display: flex;
                     color: #ffffff;
-                    width: 340px;
+                    max-width: 340px;
                     text-align: start;
                     padding-top: 30px;
                 }
@@ -73,16 +73,23 @@
 @media (max-width: 1024px){
     .section-promo-list .items-list{
         flex-basis: calc(100%/2);
+       
     }
+
 }
 
 @media (max-width: 720px){
     .section-promo-list .items-list{
-        flex-basis: 100%;
+        height: 360px;
     }
 }
 
-@media (max-width: 350px){
+@media (max-width: 530px){
+    .section-promo-list .items-list{
+        font-size: 24px;
+    }
 
-    
+    .section-promo-list span::before{
+        left: 5px;
+    }
 }

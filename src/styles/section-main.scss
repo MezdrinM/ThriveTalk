@@ -147,18 +147,22 @@
   
   @media (max-width: 530px){
       .section-main-box-description-title{
-          font-size: 36px;
+          font-size: 32px;
           width: 100%;
+          margin: 40px auto 30px;
       }
       .section-main-box-description-subtitle{
           width: 100%;
+          margin-bottom: 30px;
       }
-  }
 
-  @media (max-width: 530px){
     .section-main-box-description-form{
-        flex-direction: column;
-        margin: 0 auto 66px;
+        margin-bottom: 30px;
+    }
+
+    .section-main-box-description-form button{
+        font-weight: normal;
+        padding: 12px 15px;   
     }
   }
 
