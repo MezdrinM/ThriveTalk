@@ -115,14 +115,14 @@
         left: 40px;
     }
     .section-text-title{
-        margin: 150px 40px 76px;
+        margin: 150px 20px 76px;
     }
 }
 
 @media (max-width: 530px){
     .section-text-title{
         max-width: 90%;
-        margin: 76px auto;
+        margin: 76px 20px;
         font-weight: normal;
     }
     .section-text-sabtitle{
@@ -134,5 +134,8 @@
     }
     .section-text-list ul .box span::before{
         left: 5px;
+    }
+    .section-text-list{
+        margin-bottom: 60px;
     }
 }

@@ -39,7 +39,7 @@
         max-width: 90%;
     
         &-description{
-         margin-left: 40px;
+         margin-left: 20px;
 
             &__title{
                 margin: 50px 0;
@@ -70,6 +70,6 @@
 @media (max-width: 530px){
     .section-about-description{
         max-width: 90%;
-        margin: 0 auto;
+        margin: 0 20px;
 }
 }
