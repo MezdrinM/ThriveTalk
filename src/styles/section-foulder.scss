@@ -98,21 +98,34 @@
 
 @media (max-width: 768px){
     .section-foulder-box{
-        justify-content: space-around;
-        margin-bottom: 0;
+        justify-content: space-between;
+        margin: 50px 0 0 20px;
     }
     .section-foulder-box-text {
             flex-basis: calc(100%/2);
     }
-    
+    .section-foulder-description__text .text-sudtitle__top{
+        margin: 60px 0px 60px;
+    }
 }
 
 
 @media (max-width: 535px){
+
+    .section-foulder-box{
+        justify-content: flex-start;
+    }
     .section-foulder-box-text{
         flex-basis: 100%;
+        margin-bottom: 30px;
     }
     .section-foulder-description__text .text-title{
         font-size: 24px;
+    }
+    .section-foulder-description__text .text-sudtitle__top{
+        margin: 30px 0px 30px;
+    }
+    .section-foulder-description__text .text-title{
+        margin-bottom: 50px;
     }
 }
