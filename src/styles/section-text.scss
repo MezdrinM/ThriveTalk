@@ -103,7 +103,8 @@
 @media (max-width: 1180px){
     .section-text-list ul .box{
     flex: none;
-    width: 360px;
+    max-width: 360px;
+    flex-basis: calc(100%/2);
     }
 }
 
@@ -126,5 +127,11 @@
     .section-text-sabtitle{
         top: 60px;
         left: 20px;
+    }
+    .section-text-list ul .box{
+        font-size: 24px;
+    }
+    .section-text-list ul .box span::before{
+        left: 5px;
     }
 }
