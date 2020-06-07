@@ -99,7 +99,8 @@
                         padding: 12px 40px;
                         color: #F9B640;
                         background: $color;
-                        transition-duration: .4s;
+                        transition: all 0.4s ease 0s;
+                        outline: none;
 
                         &:hover{
                             background: #F9B640;
