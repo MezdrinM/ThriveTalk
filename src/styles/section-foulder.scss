@@ -67,6 +67,10 @@
                 line-height: 23px;
                 letter-spacing: 0.1em;
                 color: #FAB63E;
+
+                &:hover .foulder{
+                    background-size: 100%;
+                }
             }
         }
     }

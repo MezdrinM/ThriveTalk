@@ -5,10 +5,10 @@ justify-content: space-between;
 
 
     &-box{  
-            display: flex;
-            flex-direction: column;
-            color: #FFFFFF;
-            margin-left: 180px;
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+        margin-left: 180px;
 
             .text-sudtitle__top{
                 font-size: 16px;
@@ -36,8 +36,13 @@ justify-content: space-between;
                 letter-spacing: 0.1em;
                 color: #62D0DF;
                 margin-bottom: 42px;
+
+                &:hover .foulder-get{
+                    background-size: 100%;
+                }
             }
         }
+
     & .image{
         display: flex;
     }
