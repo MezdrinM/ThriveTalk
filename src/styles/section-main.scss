@@ -99,18 +99,26 @@
                         padding: 12px 40px;
                         color: #F9B640;
                         background: $color;
-                        transition: all 0.4s ease 0s;
+                        transition: 1s ease;	
                         outline: none;
+
+                        &:before, &:after{
+                            content: '';
+                            position: absolute;	
+                            transition: inherit;
+                            z-index: -1;
+                        }
 
                         &:hover{
                             background: #F9B640;
                             color: $color;
+                            transition-delay: .2s;
                         }
 
                         &:last-child{
                             margin-left: 38px;
                         }
-
+                      
                 }
             }
 

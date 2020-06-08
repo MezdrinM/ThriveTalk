@@ -29,6 +29,38 @@
         letter-spacing: 0.06em;
         color: rgba(34, 53, 111, 0.5);
         margin: 0 auto 24px;
+        cursor: pointer;
+
+        & span.animation{
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: all 0.5s;
+
+            &::after{
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+            
+        }
+ 
+
+        &:hover span.animation{
+            padding-right: 25px;
+            color: #F9B640;
+        }
+
+        &:hover span.animation:after{
+            opacity: 1;
+            right: 0;
+        }
+        
+        
+
     }
     
     
